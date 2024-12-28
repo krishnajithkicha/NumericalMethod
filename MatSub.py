@@ -22,14 +22,17 @@ def Sub():
     print(mat1)
     print(mat2)
     print("Subtraction of matrix")
-    d=[]
-    for i in range(rows1):
-        rowd=[]
-        for j in range(cols1):
-            d=mat1[i][j]-mat2[i][j]
-            rowd.append(d)
-        d.append(rowd)
-    return d
-D=Sub()
-print("Diff",D)
+    if(rows1!=rows2 or cols1!=cols2):
+        print("Invalid format")
+    else:
+        diff=[]
+        for i in range(rows1):
+            rowdif=[]
+            for j in range(cols1):
+                sub=mat1[i][j]-mat2[i][j]
+                rowdif.append(sub)
+            diff.append(rowdif)
+    return diff
+d=Sub()
+print("Difference=",d)
     
