@@ -22,7 +22,7 @@ def Add():
     print(mat1)
     print(mat2)
     print("Addition of matrix")
-    if(rows1!=rows2 and cols1!=cols2):
+    if(rows1!=rows2 or cols1!=cols2):
         print("Invalid format")
     else:
         sum=[]
