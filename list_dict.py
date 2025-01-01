@@ -1,4 +1,4 @@
-"""#LIST OPERATIONS
+#LIST OPERATIONS
 l=list()
 #creation of list
 n=int(input("Enter the no of elements:"))
@@ -45,7 +45,7 @@ print("The sorted list:",l)
 
 #reverse
 l.reverse()
-print("The reversed list:",l)"""
+print("The reversed list:",l)
 
 
 #DICTIONARY OPERATIONS
